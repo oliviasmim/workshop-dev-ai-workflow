@@ -8,9 +8,6 @@ FILE_PATH="$2"
 FILE_NAME=$(basename "$FILE_PATH")
 
 # Hard-code Jira credentials from mcp.json
-JIRA_URL="https://iasmim-ai-wkp.atlassian.net"
-JIRA_USERNAME="iasmimoliveira10@hotmail.com"
-JIRA_API_TOKEN="ATATT3xFfGF0TWEMT_tQAXkbZ3EQZIrm4Tn8Bp-Uxw2guYMysadl5c6fcAUm-1AoL1u-sZI5_X2o03jr_CxoNUanXBRUaio7En3TJvFh7uHdcB5KK5kmNvex8jPYZMXJkA_pHvQnZMVWXv1DJ8cZ-1LILRMPjwmaqZeloLCIpxShw5joPvSQQqQ=BB8740D6"
 
 echo "Uploading $FILE_PATH to Jira issue $ISSUE_KEY"
 curl -D- \
