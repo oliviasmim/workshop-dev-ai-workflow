@@ -39,8 +39,8 @@
         ],
         "env": {
             "SLACK_BOT_TOKEN": "",
-            "SLACK_TEAM_ID": "T08UZ47N09M",
-            "SLACK_CHANNEL_IDS": "C090QUCMHCY"
+            "SLACK_TEAM_ID": "",
+            "SLACK_CHANNEL_IDS": ""
         }
     }
 },
