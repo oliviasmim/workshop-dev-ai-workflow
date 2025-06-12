@@ -27,6 +27,8 @@ The scope indicates the module or component affected, such as:
 
 ## JIRA ID
 Always include the JIRA ticket ID in square brackets.
+if you don't have a JIRA ticket, you cannot commit.
+ASK FOR A TICKET FIRST IF THE USER DON'T PROVIDE.
 
 ## Description
 - Use present tense ("Add feature" not "Added feature")

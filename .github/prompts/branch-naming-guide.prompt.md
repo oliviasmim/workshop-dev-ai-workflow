@@ -16,7 +16,8 @@ Choose one of these types based on the work you're doing:
 - `test`: For adding or modifying tests
 
 ## JIRA ID
-Always include the JIRA ticket ID (e.g., SCRUM-123).
+Always include the JIRA ticket ID (e.g., SCRUM-123). If you don't have a JIRA ticket, you cannot create a branch.
+ASK FOR A TICKET FIRST!
 
 ## Short Description
 - Use kebab-case (lowercase with hyphens)
