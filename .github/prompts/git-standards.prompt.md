@@ -42,7 +42,7 @@ Where:
   - `perf`: Performance improvements
 - `<scope>` is optional and indicates the module or component affected
 - `<JIRA-XXX>` is the JIRA ticket ID
-- `<description>` is a concise description of the change in present tense
+- `<description>` is a concise description of the change in present tense, the first letter should be uppercase, and it should not end with a period.
 
 Examples:
 - `feat(auth): [SCRUM-1] Add user authentication API`

@@ -7,7 +7,6 @@ Improve an existing code snippet's quality (readability, performance, maintainab
 - `{{project_description}}` – context about what the code is supposed to do (helps ensure refactoring doesn't change behavior)
 - `{{coding_standards}}` – coding style and best practices to enforce (e.g., modularization, naming conventions, reducing useEffect usage, following Airbnb style)
 - `{{repository_link}}` – (optional) link or excerpt of the code to refactor (provide the code directly if possible for analysis)
-- `{{desired_output_format}}` – e.g. Markdown (for outputting the refactored code and explanations)
 - `{{additional_constraints}}` – e.g. "do not change external API", performance targets, or memory constraints
 
 ## AI Steps

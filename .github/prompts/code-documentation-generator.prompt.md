@@ -7,7 +7,6 @@ Enhance a given code snippet or module by adding clear, informative documentatio
 - `{{repository_link}}` – link or excerpt of the source code that needs documentation (the code should be provided)
 - `{{coding_standards}}` – documentation/comment standards to follow (e.g., JSDoc format for TS, Python docstring style)
 - `{{tech_stack}}` – default: TypeScript + React + Node/Nest (to match the documentation style to the language/framework)
-- `{{desired_output_format}}` – e.g. Markdown (to present the documented code in a code block)
 - `{{additional_constraints}}` – e.g. include usage examples in comments, focus on specific functions only, etc.
 
 ## AI Steps

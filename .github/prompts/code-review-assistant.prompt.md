@@ -3,11 +3,10 @@
 ## Objective
 Analyze provided code and produce a constructive review, highlighting bugs, code smells, and deviations from standards, with suggestions for improvement.
 
-## Context to Provide
+## Context 
 - `{{project_description}}` – brief context of the code's intended functionality
 - `{{coding_standards}}` – the style guide or standards to enforce (e.g., naming conventions, file collocation, limited useEffect, Airbnb rules)
 - `{{repository_link}}` – (optional) link or reference to the broader codebase for context (or include relevant surrounding code)
-- `{{desired_output_format}}` – e.g. Markdown (for formatting the feedback)
 - `{{additional_constraints}}` – e.g. specific focus areas (security, performance) or known issues to watch for
 
 ## AI Steps
