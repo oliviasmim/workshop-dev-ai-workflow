@@ -1,0 +1,25 @@
+.graphs {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 20px;
+}
+
+.graphContainer {
+	background-color: #fff;
+	height: 280px;
+	border-radius: 8px;
+	position: relative;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.graphContent {
+	flex-grow: 1;
+}
+
+@media (max-width: 768px) {
+	.graphs {
+		grid-template-columns: 1fr;
+	}
+}

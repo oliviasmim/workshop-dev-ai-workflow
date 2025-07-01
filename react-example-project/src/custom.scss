@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Averta:wght@400;500;600;700&display=swap");
+@import "bootstrap/scss/bootstrap";
+
+$primary: #605bff;
+$secondary: #007bff;
+$tertiary: #ff8f6b;
+$success: #3add60;
+$error: #ec3548;
+$white: #ffffff;
+$font-color: #15192c;
+
+$headings-font-family: "Inter", sans-serif;
+$font-family-base: "Averta", sans-serif;
+
+.btn-primary {
+	background-color: $primary;
+	color: white;
+
+	&:hover {
+		background-color: darken($primary, 10%);
+	}
+}
+
+.tooltip {
+	background-color: $primary !important;
+	color: #fff !important;
+	font-size: 0.9rem;
+	font-weight: bold;
+	border-radius: $border-radius;
+	padding: 0.5rem 1rem;
+	text-align: center;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+	&::after,
+	&::before {
+		position: absolute;
+		width: 0;
+		height: 0;
+		border-style: solid;
+	}
+
+	&::after {
+		bottom: -5px;
+		left: 50%;
+		transform: translateX(-50%);
+		border-width: 5px;
+		border-color: $primary transparent transparent transparent;
+	}
+}
+
+.tooltip.fade.show {
+	opacity: 1;
+	transition: opacity 0.2s ease-in-out;
+}
+
+.tooltip-inner {
+	background-color: $primary !important;
+	color: #fff !important;
+	font-size: 0.9rem;
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+	border-radius: $border-radius;
+}
+
+.tooltip-arrow {
+	display: none;
+}
